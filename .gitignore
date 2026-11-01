@@ -1,0 +1,13 @@
+# Environment variables and API keys
+.env
+.env.local
+
+# Python virtual environments
+venv/
+env/
+__pycache__/
+
+# Local vector databases & logs
+chroma_db/
+faiss_index/
+*.log
